@@ -1,0 +1,2945 @@
+<h1>Hosp.admissions</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>admittime</th>
+      <th>dischtime</th>
+      <th>deathtime</th>
+      <th>admission_type</th>
+      <th>admission_location</th>
+      <th>discharge_location</th>
+      <th>insurance</th>
+      <th>language</th>
+      <th>marital_status</th>
+      <th>race</th>
+      <th>edregtime</th>
+      <th>edouttime</th>
+      <th>hospital_expire_flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>2180-05-06 22:23:00</td>
+      <td>2180-05-07 17:15:00</td>
+      <td>None</td>
+      <td>URGENT</td>
+      <td>TRANSFER FROM HOSPITAL</td>
+      <td>HOME</td>
+      <td>Other</td>
+      <td>ENGLISH</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-05-06 19:17:00</td>
+      <td>2180-05-06 23:30:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-26 18:27:00</td>
+      <td>2180-06-27 18:49:00</td>
+      <td>None</td>
+      <td>EW EMER.</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOME</td>
+      <td>Medicaid</td>
+      <td>ENGLISH</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-06-26 15:54:00</td>
+      <td>2180-06-26 21:31:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>2180-08-05 23:44:00</td>
+      <td>2180-08-07 17:50:00</td>
+      <td>None</td>
+      <td>EW EMER.</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOSPICE</td>
+      <td>Medicaid</td>
+      <td>ENGLISH</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-08-05 20:58:00</td>
+      <td>2180-08-06 01:44:00</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>2180-07-23 12:35:00</td>
+      <td>2180-07-25 17:55:00</td>
+      <td>None</td>
+      <td>EW EMER.</td>
+      <td>EMERGENCY ROOM</td>
+      <td>HOME</td>
+      <td>Medicaid</td>
+      <td>ENGLISH</td>
+      <td>WIDOWED</td>
+      <td>WHITE</td>
+      <td>2180-07-23 05:54:00</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.diagnoses_icd</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>seq_num</th>
+      <th>icd_code</th>
+      <th>icd_version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>1</td>
+      <td>5723</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>2</td>
+      <td>78959</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>3</td>
+      <td>5715</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>4</td>
+      <td>07070</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>5</td>
+      <td>496</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>6</td>
+      <td>29680</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>7</td>
+      <td>30981</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>8</td>
+      <td>V1582</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>1</td>
+      <td>07071</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2</td>
+      <td>78959</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.drgcodes</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>drg_type</th>
+      <th>drg_code</th>
+      <th>description</th>
+      <th>drg_severity</th>
+      <th>drg_mortality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>APR</td>
+      <td>283</td>
+      <td>OTHER DISORDERS OF THE LIVER</td>
+      <td>2.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>HCFA</td>
+      <td>442</td>
+      <td>DISORDERS OF LIVER EXCEPT MALIG,CIRR,ALC HEPA W CC</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>APR</td>
+      <td>279</td>
+      <td>HEPATIC COMA &amp; OTHER MAJOR ACUTE LIVER DISORDERS</td>
+      <td>3.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>HCFA</td>
+      <td>442</td>
+      <td>DISORDERS OF LIVER EXCEPT MALIG,CIRR,ALC HEPA W CC</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>APR</td>
+      <td>283</td>
+      <td>OTHER DISORDERS OF THE LIVER</td>
+      <td>3.0</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>HCFA</td>
+      <td>442</td>
+      <td>DISORDERS OF LIVER EXCEPT MALIG,CIRR,ALC HEPA W CC</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>APR</td>
+      <td>207</td>
+      <td>OTHER CIRCULATORY SYSTEM DIAGNOSES</td>
+      <td>3.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>HCFA</td>
+      <td>312</td>
+      <td>SYNCOPE &amp; COLLAPSE</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.emar</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>emar_id</th>
+      <th>emar_seq</th>
+      <th>poe_id</th>
+      <th>pharmacy_id</th>
+      <th>charttime</th>
+      <th>medication</th>
+      <th>event_txt</th>
+      <th>scheduletime</th>
+      <th>storetime</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>10000032-36</td>
+      <td>48770010.0</td>
+      <td>2180-05-07 00:44:00</td>
+      <td>Potassium Chloride</td>
+      <td>Administered</td>
+      <td>2180-05-07 00:44:00</td>
+      <td>2180-05-07 00:44:00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-11</td>
+      <td>11</td>
+      <td>10000032-22</td>
+      <td>14779570.0</td>
+      <td>2180-05-07 00:44:00</td>
+      <td>Sodium Chloride 0.9%  Flush</td>
+      <td>Flushed</td>
+      <td>2180-05-07 00:44:00</td>
+      <td>2180-05-07 00:44:00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-12</td>
+      <td>12</td>
+      <td>10000032-37</td>
+      <td>93463122.0</td>
+      <td>2180-05-07 06:10:00</td>
+      <td>Ipratropium Bromide Neb</td>
+      <td>Administered</td>
+      <td>2180-05-07 06:00:00</td>
+      <td>2180-05-07 06:10:00</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-13</td>
+      <td>13</td>
+      <td>10000032-28</td>
+      <td>42497745.0</td>
+      <td>2180-05-07 05:00:00</td>
+      <td>Albuterol Inhaler</td>
+      <td>Administered</td>
+      <td>2180-05-07 06:29:00</td>
+      <td>2180-05-07 06:29:00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-14</td>
+      <td>14</td>
+      <td>10000032-29</td>
+      <td>69131933.0</td>
+      <td>2180-05-07 07:51:00</td>
+      <td>Emtricitabine-Tenofovir (Truvada)</td>
+      <td>Administered</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>2180-05-07 07:56:00</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-15</td>
+      <td>15</td>
+      <td>10000032-27</td>
+      <td>28781051.0</td>
+      <td>2180-05-07 07:51:00</td>
+      <td>Heparin</td>
+      <td>Administered</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>2180-05-07 07:56:00</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-16</td>
+      <td>16</td>
+      <td>10000032-32</td>
+      <td>20256254.0</td>
+      <td>2180-05-07 07:51:00</td>
+      <td>Raltegravir</td>
+      <td>Administered</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>2180-05-07 07:56:00</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-17</td>
+      <td>17</td>
+      <td>10000032-22</td>
+      <td>14779570.0</td>
+      <td>2180-05-07 07:51:00</td>
+      <td>Sodium Chloride 0.9%  Flush</td>
+      <td>Flushed</td>
+      <td>2180-05-07 07:51:00</td>
+      <td>2180-05-07 07:56:00</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-18</td>
+      <td>18</td>
+      <td>10000032-31</td>
+      <td>NaN</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>Nicotine Patch</td>
+      <td>Not Applied</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>2180-05-07 07:57:00</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>10000032-19</td>
+      <td>19</td>
+      <td>10000032-30</td>
+      <td>NaN</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>Furosemide</td>
+      <td>Not Given</td>
+      <td>2180-05-07 08:00:00</td>
+      <td>2180-05-07 09:27:00</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.emar_detail</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>emar_id</th>
+      <th>emar_seq</th>
+      <th>parent_field_ordinal</th>
+      <th>administration_type</th>
+      <th>pharmacy_id</th>
+      <th>barcode_type</th>
+      <th>reason_for_no_barcode</th>
+      <th>complete_dose_not_given</th>
+      <th>dose_due</th>
+      <th>dose_due_unit</th>
+      <th>dose_given</th>
+      <th>dose_given_unit</th>
+      <th>will_remainder_of_dose_be_given</th>
+      <th>product_amount_given</th>
+      <th>product_unit</th>
+      <th>product_code</th>
+      <th>product_description</th>
+      <th>product_description_other</th>
+      <th>prior_infusion_rate</th>
+      <th>infusion_rate</th>
+      <th>infusion_rate_adjustment</th>
+      <th>infusion_rate_adjustment_amount</th>
+      <th>infusion_rate_unit</th>
+      <th>route</th>
+      <th>infusion_complete</th>
+      <th>completion_interval</th>
+      <th>new_iv_bag_hung</th>
+      <th>continued_infusion_in_other_location</th>
+      <th>restart_interval</th>
+      <th>side</th>
+      <th>site</th>
+      <th>non_formulary_visual_verification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>1.1</td>
+      <td>None</td>
+      <td>48770010.0</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>10</td>
+      <td>mEq</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>MICROK10</td>
+      <td>Potassium Chloride 10mEq ER Tablet</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>1.2</td>
+      <td>None</td>
+      <td>48770010.0</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>10</td>
+      <td>mEq</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>MICROK10</td>
+      <td>Potassium Chloride 10mEq ER Tablet</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>1.3</td>
+      <td>None</td>
+      <td>48770010.0</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>10</td>
+      <td>mEq</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>MICROK10</td>
+      <td>Potassium Chloride 10mEq ER Tablet</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>1.4</td>
+      <td>None</td>
+      <td>48770010.0</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>10</td>
+      <td>mEq</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>MICROK10</td>
+      <td>Potassium Chloride 10mEq ER Tablet</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>NaN</td>
+      <td>Standard Maintenance Medication</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>No</td>
+      <td>40</td>
+      <td>mEq</td>
+      <td>None</td>
+      <td>None</td>
+      <td>No</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>10000032-100</td>
+      <td>100</td>
+      <td>1.1</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>30</td>
+      <td>mL</td>
+      <td>None</td>
+      <td>1</td>
+      <td>UDCUP</td>
+      <td>MAAL30L</td>
+      <td>Aluminum-Magnesium Hydrox.-Simethicone 30 mL UDCup</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>10000032-100</td>
+      <td>100</td>
+      <td>NaN</td>
+      <td>Standard Maintenance Medication</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>No</td>
+      <td>30</td>
+      <td>mL</td>
+      <td>None</td>
+      <td>None</td>
+      <td>No</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>10000032-101</td>
+      <td>101</td>
+      <td>1.1</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>5</td>
+      <td>mL</td>
+      <td>None</td>
+      <td>1</td>
+      <td>SYR</td>
+      <td>BELL5L</td>
+      <td>Donnatal (Elixir) 5mL Oral Syringe</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>10000032-101</td>
+      <td>101</td>
+      <td>1.2</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>if</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>5</td>
+      <td>mL</td>
+      <td>None</td>
+      <td>1</td>
+      <td>SYR</td>
+      <td>BELL5L</td>
+      <td>Donnatal (Elixir) 5mL Oral Syringe</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>10000032-101</td>
+      <td>101</td>
+      <td>NaN</td>
+      <td>Standard Maintenance Medication</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>No</td>
+      <td>10</td>
+      <td>mL</td>
+      <td>None</td>
+      <td>None</td>
+      <td>No</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.hcpcsevents</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>chartdate</th>
+      <th>hcpcs_cd</th>
+      <th>seq_num</th>
+      <th>short_description</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<h1>Hosp.labevents</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>labevent_id</th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>specimen_id</th>
+      <th>itemid</th>
+      <th>charttime</th>
+      <th>storetime</th>
+      <th>value</th>
+      <th>valuenum</th>
+      <th>valueuom</th>
+      <th>ref_range_lower</th>
+      <th>ref_range_upper</th>
+      <th>flag</th>
+      <th>priority</th>
+      <th>comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>45421181</td>
+      <td>51237</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 15:15:00</td>
+      <td>1.4</td>
+      <td>1.4</td>
+      <td>None</td>
+      <td>0.9</td>
+      <td>1.1</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>45421181</td>
+      <td>51274</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 15:15:00</td>
+      <td>___</td>
+      <td>15.1</td>
+      <td>sec</td>
+      <td>9.4</td>
+      <td>12.5</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>VERIFIED.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50853</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-25 11:06:00</td>
+      <td>___</td>
+      <td>15.0</td>
+      <td>ng/mL</td>
+      <td>30.0</td>
+      <td>60.0</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>NEW ASSAY IN USE ___: DETECTS D2 AND D3 25-OH ACCURATELY.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50861</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>102</td>
+      <td>102.0</td>
+      <td>IU/L</td>
+      <td>0.0</td>
+      <td>40.0</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50862</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>3.3</td>
+      <td>3.3</td>
+      <td>g/dL</td>
+      <td>3.5</td>
+      <td>5.2</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50863</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>109</td>
+      <td>109.0</td>
+      <td>IU/L</td>
+      <td>35.0</td>
+      <td>105.0</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50864</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>___</td>
+      <td>8.0</td>
+      <td>ng/mL</td>
+      <td>0.0</td>
+      <td>8.7</td>
+      <td>None</td>
+      <td>ROUTINE</td>
+      <td>MEASURED BY ___.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50868</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>12</td>
+      <td>12.0</td>
+      <td>mEq/L</td>
+      <td>8.0</td>
+      <td>20.0</td>
+      <td>None</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50878</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>143</td>
+      <td>143.0</td>
+      <td>IU/L</td>
+      <td>0.0</td>
+      <td>40.0</td>
+      <td>abnormal</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>52958335</td>
+      <td>50882</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>2180-03-23 16:40:00</td>
+      <td>27</td>
+      <td>27.0</td>
+      <td>mEq/L</td>
+      <td>22.0</td>
+      <td>32.0</td>
+      <td>None</td>
+      <td>ROUTINE</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.microbiologyevents</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>microevent_id</th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>micro_specimen_id</th>
+      <th>chartdate</th>
+      <th>charttime</th>
+      <th>spec_itemid</th>
+      <th>spec_type_desc</th>
+      <th>test_seq</th>
+      <th>storedate</th>
+      <th>storetime</th>
+      <th>test_itemid</th>
+      <th>test_name</th>
+      <th>org_itemid</th>
+      <th>org_name</th>
+      <th>isolate_num</th>
+      <th>quantity</th>
+      <th>ab_itemid</th>
+      <th>ab_name</th>
+      <th>dilution_text</th>
+      <th>dilution_comparison</th>
+      <th>dilution_value</th>
+      <th>interpretation</th>
+      <th>comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>636109</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70093</td>
+      <td>Blood (Toxo)</td>
+      <td>1</td>
+      <td>2180-03-26</td>
+      <td>2180-03-26 10:17:00</td>
+      <td>90144</td>
+      <td>TOXOPLASMA IgG ANTIBODY</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NEGATIVE FOR TOXOPLASMA IgG ANTIBODY BY EIA.  0.0 IU/ML.  Reference Range:  Negative &lt; 4 IU/ml, Positive &gt;= 8 IU/ml.  If acute infection is suspected request IgM antibody testing and/or  submit convalescent serum in 2-3 weeks.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>1836584</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70017</td>
+      <td>SEROLOGY/BLOOD</td>
+      <td>1</td>
+      <td>2180-03-24</td>
+      <td>2180-03-24 12:40:00</td>
+      <td>90127</td>
+      <td>RUBEOLA ANTIBODY, IgG</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>POSITIVE BY EIA.  A positive IgG result generally indicates past exposure and/or immunity.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>4131591</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70087</td>
+      <td>Blood (CMV AB)</td>
+      <td>1</td>
+      <td>2180-03-26</td>
+      <td>2180-03-26 10:06:00</td>
+      <td>90143</td>
+      <td>CMV IgG ANTIBODY</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>___</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>4131591</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70087</td>
+      <td>Blood (CMV AB)</td>
+      <td>2</td>
+      <td>2180-03-26</td>
+      <td>2180-03-26 10:06:00</td>
+      <td>90136</td>
+      <td>CMV IgM ANTIBODY</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NEGATIVE FOR CMV IgM ANTIBODY BY EIA.  INTERPRETATION:  INFECTION AT UNDETERMINED TIME.  A positive IgG result generally indicates past exposure.  Infection with CMV once contracted remains latent and may reactivate when immunity is compromised.  Greatly elevated serum protein with IgG levels &gt;2000 mg/dl may cause  interference with CMV IgM results.  If current infection is suspected, submit follow-up serum in 2-3 weeks.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>6028147</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70088</td>
+      <td>Blood (EBV)</td>
+      <td>1</td>
+      <td>2180-03-25</td>
+      <td>2180-03-25 11:54:00</td>
+      <td>90101</td>
+      <td>EPSTEIN-BARR VIRUS VCA-IgG AB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>POSITIVE BY EIA.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>6028147</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70088</td>
+      <td>Blood (EBV)</td>
+      <td>2</td>
+      <td>2180-03-25</td>
+      <td>2180-03-25 11:54:00</td>
+      <td>90135</td>
+      <td>EPSTEIN-BARR VIRUS EBNA IgG AB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>POSITIVE BY EIA.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>6028147</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70088</td>
+      <td>Blood (EBV)</td>
+      <td>3</td>
+      <td>2180-03-25</td>
+      <td>2180-03-25 12:46:00</td>
+      <td>90134</td>
+      <td>EPSTEIN-BARR VIRUS VCA-IgM AB</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NEGATIVE &lt;1:10 BY IFA.  INTERPRETATION: RESULTS INDICATIVE OF PAST EBV INFECTION.  In most populations, 90% of adults have been infected at sometime with EBV and will have measurable VCA IgG and EBNA antibodies. Antibodies to EBNA develop 6-8 weeks after primary infection and remain present for life. Presence of VCA IgM antibodies indicates recent primary infection.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>6700137</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70017</td>
+      <td>SEROLOGY/BLOOD</td>
+      <td>1</td>
+      <td>2180-03-24</td>
+      <td>2180-03-24 11:50:00</td>
+      <td>90254</td>
+      <td>RUBELLA IgG SEROLOGY</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>POSITIVE BY EIA.  A positive IgG result generally indicates past exposure and/or immunity.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>7713497</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70046</td>
+      <td>IMMUNOLOGY</td>
+      <td>1</td>
+      <td>2180-03-26</td>
+      <td>2180-03-26 10:25:00</td>
+      <td>90175</td>
+      <td>HIV-1 Viral Load/Ultrasensitive</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>HIV-1 RNA is not detected.  Performed using the ___ HIV-1 Test v2.0.  Detection Range: 20-10,000,000 copies/mL.  This test is approved for monitoring HIV-1 viral load in known HIV-positive patients. It is not approved for diagnosis of acute HIV infection.  In symptomatic acute HIV infection (acute retroviral syndrome), the viral load is usually very high (&gt;&gt;1000 copies/mL). If acute HIV infection is clinically suspected and there is a detectable but low viral load, please contact the laboratory for interpretation.  It is recommended that any NEW positive HIV-1 viral load result, in the absence of positive serology, be confirmed by submitting a new sample FOR HIV-1 PCR, in addition to serological testing.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10</td>
+      <td>10000032</td>
+      <td>None</td>
+      <td>7951493</td>
+      <td>2180-03-23</td>
+      <td>2180-03-23 11:51:00</td>
+      <td>70017</td>
+      <td>SEROLOGY/BLOOD</td>
+      <td>1</td>
+      <td>2180-03-26</td>
+      <td>2180-03-26 13:38:00</td>
+      <td>90091</td>
+      <td>VARICELLA-ZOSTER IgG SEROLOGY</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>POSITIVE BY EIA.  A positive IgG result generally indicates past exposure and/or immunity.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.patients</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>gender</th>
+      <th>anchor_age</th>
+      <th>anchor_year</th>
+      <th>anchor_year_group</th>
+      <th>dod</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>F</td>
+      <td>52</td>
+      <td>2180</td>
+      <td>2014 - 2016</td>
+      <td>2180-09-09</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.pharmacy</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>pharmacy_id</th>
+      <th>poe_id</th>
+      <th>starttime</th>
+      <th>stoptime</th>
+      <th>medication</th>
+      <th>proc_type</th>
+      <th>status</th>
+      <th>entertime</th>
+      <th>verifiedtime</th>
+      <th>route</th>
+      <th>frequency</th>
+      <th>disp_sched</th>
+      <th>infusion_type</th>
+      <th>sliding_scale</th>
+      <th>lockout_interval</th>
+      <th>basal_rate</th>
+      <th>one_hr_max</th>
+      <th>doses_per_24_hrs</th>
+      <th>duration</th>
+      <th>duration_interval</th>
+      <th>expiration_value</th>
+      <th>expiration_unit</th>
+      <th>expirationdate</th>
+      <th>dispensation</th>
+      <th>fill_quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>11700683</td>
+      <td>10000032-34</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Acetaminophen</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>PO/NG</td>
+      <td>Q6H:PRN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>14779570</td>
+      <td>10000032-22</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Sodium Chloride 0.9%  Flush</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:00:54</td>
+      <td>2180-05-07 00:00:54</td>
+      <td>IV</td>
+      <td>Q8H</td>
+      <td>0, 8, 16</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Floor Stock Item</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>19796602</td>
+      <td>10000032-50</td>
+      <td>2180-05-08 08:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Furosemide</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 09:32:35</td>
+      <td>2180-05-07 09:32:35</td>
+      <td>PO/NG</td>
+      <td>DAILY</td>
+      <td>08</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>20256254</td>
+      <td>10000032-32</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Raltegravir</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>PO</td>
+      <td>BID</td>
+      <td>08, 20</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>28781051</td>
+      <td>10000032-27</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Heparin</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:00:54</td>
+      <td>2180-05-07 00:00:54</td>
+      <td>SC</td>
+      <td>TID</td>
+      <td>08, 14, 20</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>3.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>42497745</td>
+      <td>10000032-28</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Albuterol Inhaler</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>IH</td>
+      <td>Q4H:PRN</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Bulk Item</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>48770010</td>
+      <td>10000032-36</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>Potassium Chloride</td>
+      <td>Unit Dose</td>
+      <td>Discontinued</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>PO</td>
+      <td>ONCE</td>
+      <td>1</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>Doses</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>69131933</td>
+      <td>10000032-29</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Emtricitabine-Tenofovir (Truvada)</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>PO</td>
+      <td>DAILY</td>
+      <td>08</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>88534507</td>
+      <td>10000032-31</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>Nicotine Patch</td>
+      <td>Unit Dose</td>
+      <td>Discontinued via patient discharge</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>TD</td>
+      <td>DAILY</td>
+      <td>08</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>90650714</td>
+      <td>10000032-33</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 09:00:00</td>
+      <td>Spironolactone</td>
+      <td>Unit Dose</td>
+      <td>Inactive (Due to a change order)</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>2180-05-07 00:09:24</td>
+      <td>PO/NG</td>
+      <td>DAILY</td>
+      <td>08</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>None</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>Ongoing</td>
+      <td>36</td>
+      <td>Hours</td>
+      <td>None</td>
+      <td>Omnicell</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.poe</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>poe_id</th>
+      <th>poe_seq</th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>ordertime</th>
+      <th>order_type</th>
+      <th>order_subtype</th>
+      <th>transaction_type</th>
+      <th>discontinue_of_poe_id</th>
+      <th>discontinued_by_poe_id</th>
+      <th>order_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032-10</td>
+      <td>10</td>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>2180-05-06 20:50:49</td>
+      <td>Lab</td>
+      <td>None</td>
+      <td>New</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032-100</td>
+      <td>100</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-26 22:25:43</td>
+      <td>Respiratory</td>
+      <td>Oxygen Therapy</td>
+      <td>New</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032-102</td>
+      <td>102</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-26 22:37:06</td>
+      <td>Medications</td>
+      <td>None</td>
+      <td>D/C</td>
+      <td>10000032-93</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032-103</td>
+      <td>103</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-26 22:37:06</td>
+      <td>Medications</td>
+      <td>None</td>
+      <td>Change</td>
+      <td>10000032-89</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032-104</td>
+      <td>104</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-27 07:06:36</td>
+      <td>ADT orders</td>
+      <td>Admit</td>
+      <td>Change</td>
+      <td>10000032-75</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032-105</td>
+      <td>105</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-27 07:06:36</td>
+      <td>Lab</td>
+      <td>None</td>
+      <td>New</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032-106</td>
+      <td>106</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-27 11:53:16</td>
+      <td>Lab</td>
+      <td>None</td>
+      <td>New</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032-108</td>
+      <td>108</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-27 17:05:25</td>
+      <td>Medications</td>
+      <td>None</td>
+      <td>New</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032-109</td>
+      <td>109</td>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-27 17:50:27</td>
+      <td>ADT orders</td>
+      <td>Discharge</td>
+      <td>New</td>
+      <td>None</td>
+      <td>10000032-110</td>
+      <td>Inactive</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032-11</td>
+      <td>11</td>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>2180-05-06 20:51:19</td>
+      <td>Lab</td>
+      <td>None</td>
+      <td>New</td>
+      <td>None</td>
+      <td>None</td>
+      <td>Inactive</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.poe_detail</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>poe_id</th>
+      <th>poe_seq</th>
+      <th>subject_id</th>
+      <th>field_name</th>
+      <th>field_value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032-104</td>
+      <td>104</td>
+      <td>10000032</td>
+      <td>Admit category</td>
+      <td>Admit to inpatient</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032-109</td>
+      <td>109</td>
+      <td>10000032</td>
+      <td>Admit category</td>
+      <td>Admit to inpatient</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032-109</td>
+      <td>109</td>
+      <td>10000032</td>
+      <td>Discharge Planning</td>
+      <td>Finalized</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032-111</td>
+      <td>111</td>
+      <td>10000032</td>
+      <td>Admit category</td>
+      <td>Admit to inpatient</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032-111</td>
+      <td>111</td>
+      <td>10000032</td>
+      <td>Discharge Planning</td>
+      <td>Finalized</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032-112</td>
+      <td>112</td>
+      <td>10000032</td>
+      <td>Admit category</td>
+      <td>Admit to inpatient</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032-112</td>
+      <td>112</td>
+      <td>10000032</td>
+      <td>Discharge When</td>
+      <td>Discharge Now</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032-133</td>
+      <td>133</td>
+      <td>10000032</td>
+      <td>Admit category</td>
+      <td>Admit to inpatient</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032-133</td>
+      <td>133</td>
+      <td>10000032</td>
+      <td>Admit to</td>
+      <td>MICU - Orange</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032-140</td>
+      <td>140</td>
+      <td>10000032</td>
+      <td>Admit category</td>
+      <td>Admit to inpatient</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.prescriptions</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>pharmacy_id</th>
+      <th>poe_id</th>
+      <th>poe_seq</th>
+      <th>starttime</th>
+      <th>stoptime</th>
+      <th>drug_type</th>
+      <th>drug</th>
+      <th>formulary_drug_cd</th>
+      <th>gsn</th>
+      <th>ndc</th>
+      <th>prod_strength</th>
+      <th>form_rx</th>
+      <th>dose_val_rx</th>
+      <th>dose_unit_rx</th>
+      <th>form_val_disp</th>
+      <th>form_unit_disp</th>
+      <th>doses_per_24_hrs</th>
+      <th>route</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>11700683</td>
+      <td>10000032-34</td>
+      <td>34</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Acetaminophen</td>
+      <td>APAP500</td>
+      <td>004490</td>
+      <td>00904198861</td>
+      <td>500mg Tablet</td>
+      <td>None</td>
+      <td>500</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>NaN</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>14779570</td>
+      <td>10000032-22</td>
+      <td>22</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Sodium Chloride 0.9%  Flush</td>
+      <td>NACLFLUSH</td>
+      <td>None</td>
+      <td>0</td>
+      <td>10 mL Syringe</td>
+      <td>None</td>
+      <td>3</td>
+      <td>mL</td>
+      <td>0.3</td>
+      <td>SYR</td>
+      <td>3.0</td>
+      <td>IV</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>19796602</td>
+      <td>10000032-50</td>
+      <td>50</td>
+      <td>2180-05-08 08:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Furosemide</td>
+      <td>FURO40</td>
+      <td>008209</td>
+      <td>51079007320</td>
+      <td>40mg Tablet</td>
+      <td>None</td>
+      <td>40</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1.0</td>
+      <td>PO/NG</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>20256254</td>
+      <td>10000032-32</td>
+      <td>32</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Raltegravir</td>
+      <td>RALT400</td>
+      <td>063231</td>
+      <td>00006022761</td>
+      <td>400 mg Tablet</td>
+      <td>None</td>
+      <td>400</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>2.0</td>
+      <td>PO</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>28781051</td>
+      <td>10000032-27</td>
+      <td>27</td>
+      <td>2180-05-07 00:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Heparin</td>
+      <td>HEPA5I</td>
+      <td>006549</td>
+      <td>63323026201</td>
+      <td>5000 Units / mL- 1mL Vial</td>
+      <td>None</td>
+      <td>5000</td>
+      <td>UNIT</td>
+      <td>1</td>
+      <td>mL</td>
+      <td>3.0</td>
+      <td>SC</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>42497745</td>
+      <td>10000032-28</td>
+      <td>28</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Albuterol Inhaler</td>
+      <td>ALBU17H</td>
+      <td>028090</td>
+      <td>00173068224</td>
+      <td>8 g Inhaler</td>
+      <td>None</td>
+      <td>2</td>
+      <td>PUFF</td>
+      <td>0.02</td>
+      <td>INH</td>
+      <td>NaN</td>
+      <td>IH</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>48770010</td>
+      <td>10000032-36</td>
+      <td>36</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>MAIN</td>
+      <td>Potassium Chloride</td>
+      <td>MICROK10</td>
+      <td>001275</td>
+      <td>00245004101</td>
+      <td>10mEq ER Tablet</td>
+      <td>None</td>
+      <td>40</td>
+      <td>mEq</td>
+      <td>4</td>
+      <td>TAB</td>
+      <td>1.0</td>
+      <td>PO</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>69131933</td>
+      <td>10000032-29</td>
+      <td>29</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Emtricitabine-Tenofovir (Truvada)</td>
+      <td>TRUV200/300</td>
+      <td>057883</td>
+      <td>61958070101</td>
+      <td>200-300mg Tablet</td>
+      <td>None</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1</td>
+      <td>TAB</td>
+      <td>1.0</td>
+      <td>PO</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>88534507</td>
+      <td>10000032-31</td>
+      <td>31</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 22:00:00</td>
+      <td>MAIN</td>
+      <td>Nicotine Patch</td>
+      <td>NICO14P</td>
+      <td>016426</td>
+      <td>00135019502</td>
+      <td>14mg/24Hr Patch</td>
+      <td>None</td>
+      <td>14</td>
+      <td>mg</td>
+      <td>1</td>
+      <td>PTCH</td>
+      <td>1.0</td>
+      <td>TD</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>90650714</td>
+      <td>10000032-33</td>
+      <td>33</td>
+      <td>2180-05-07 01:00:00</td>
+      <td>2180-05-07 09:00:00</td>
+      <td>MAIN</td>
+      <td>Spironolactone</td>
+      <td>SPIR25</td>
+      <td>006817</td>
+      <td>63739054410</td>
+      <td>25mg Tablet</td>
+      <td>None</td>
+      <td>50</td>
+      <td>mg</td>
+      <td>2</td>
+      <td>TAB</td>
+      <td>1.0</td>
+      <td>PO/NG</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.procedures_icd</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>seq_num</th>
+      <th>chartdate</th>
+      <th>icd_code</th>
+      <th>icd_version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>1</td>
+      <td>2180-05-07</td>
+      <td>5491</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>1</td>
+      <td>2180-06-27</td>
+      <td>5491</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>1</td>
+      <td>2180-08-06</td>
+      <td>5491</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.services</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>transfertime</th>
+      <th>prev_service</th>
+      <th>curr_service</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>2180-05-06 22:24:57</td>
+      <td>None</td>
+      <td>MED</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>2180-06-26 18:28:08</td>
+      <td>None</td>
+      <td>MED</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>2180-08-05 23:44:50</td>
+      <td>None</td>
+      <td>MED</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>2180-07-23 12:36:04</td>
+      <td>None</td>
+      <td>MED</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>Hosp.transfers</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>transfer_id</th>
+      <th>eventtype</th>
+      <th>careunit</th>
+      <th>intime</th>
+      <th>outtime</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>33258284</td>
+      <td>ED</td>
+      <td>Emergency Department</td>
+      <td>2180-05-06 19:17:00</td>
+      <td>2180-05-06 23:30:00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>35223874</td>
+      <td>admit</td>
+      <td>Transplant</td>
+      <td>2180-05-06 23:30:00</td>
+      <td>2180-05-07 17:21:27</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>22595853</td>
+      <td>36904543</td>
+      <td>discharge</td>
+      <td>None</td>
+      <td>2180-05-07 17:21:27</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>34100253</td>
+      <td>discharge</td>
+      <td>None</td>
+      <td>2180-06-27 18:49:12</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>34703856</td>
+      <td>admit</td>
+      <td>Transplant</td>
+      <td>2180-06-26 21:31:00</td>
+      <td>2180-06-27 18:49:12</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>22841357</td>
+      <td>38112554</td>
+      <td>ED</td>
+      <td>Emergency Department</td>
+      <td>2180-06-26 15:54:00</td>
+      <td>2180-06-26 21:31:00</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>35509340</td>
+      <td>admit</td>
+      <td>Transplant</td>
+      <td>2180-08-06 01:44:00</td>
+      <td>2180-08-07 17:50:44</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>35968195</td>
+      <td>ED</td>
+      <td>Emergency Department</td>
+      <td>2180-08-05 20:58:00</td>
+      <td>2180-08-06 01:44:00</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>25742920</td>
+      <td>38883756</td>
+      <td>discharge</td>
+      <td>None</td>
+      <td>2180-08-07 17:50:44</td>
+      <td>NaT</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>32952584</td>
+      <td>ED</td>
+      <td>Emergency Department</td>
+      <td>2180-07-22 16:24:00</td>
+      <td>2180-07-23 05:54:00</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>ICU.chartevents</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>stay_id</th>
+      <th>charttime</th>
+      <th>storetime</th>
+      <th>itemid</th>
+      <th>value</th>
+      <th>valuenum</th>
+      <th>valueuom</th>
+      <th>warning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 12:36:00</td>
+      <td>2180-07-23 14:45:00</td>
+      <td>226512</td>
+      <td>39.4</td>
+      <td>39.4</td>
+      <td>kg</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 12:36:00</td>
+      <td>2180-07-23 14:45:00</td>
+      <td>226707</td>
+      <td>60</td>
+      <td>60.0</td>
+      <td>Inch</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 12:36:00</td>
+      <td>2180-07-23 14:45:00</td>
+      <td>226730</td>
+      <td>152</td>
+      <td>152.0</td>
+      <td>cm</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 13:06:00</td>
+      <td>2180-07-23 13:07:00</td>
+      <td>227464</td>
+      <td>5.8</td>
+      <td>5.8</td>
+      <td>mEq/L</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>2180-07-23 14:18:00</td>
+      <td>220048</td>
+      <td>SR (Sinus Rhythm)</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>2180-07-23 14:18:00</td>
+      <td>224642</td>
+      <td>Oral</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>2180-07-23 14:18:00</td>
+      <td>224650</td>
+      <td>None</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>2180-07-23 14:20:00</td>
+      <td>223761</td>
+      <td>98.7</td>
+      <td>98.7</td>
+      <td>°F</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:11:00</td>
+      <td>2180-07-23 14:17:00</td>
+      <td>220179</td>
+      <td>84</td>
+      <td>84.0</td>
+      <td>mmHg</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:11:00</td>
+      <td>2180-07-23 14:17:00</td>
+      <td>220180</td>
+      <td>48</td>
+      <td>48.0</td>
+      <td>mmHg</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>ICU.datetimeevents</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>stay_id</th>
+      <th>charttime</th>
+      <th>storetime</th>
+      <th>itemid</th>
+      <th>value</th>
+      <th>valueuom</th>
+      <th>warning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:24:00</td>
+      <td>2180-07-23 14:24:00</td>
+      <td>225754</td>
+      <td>2180-07-23 14:24:00</td>
+      <td>Date</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 14:24:00</td>
+      <td>2180-07-23 14:24:00</td>
+      <td>225755</td>
+      <td>2180-07-23 14:24:00</td>
+      <td>Date</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 21:02:00</td>
+      <td>2180-07-23 21:02:00</td>
+      <td>225754</td>
+      <td>2180-07-23 00:00:00</td>
+      <td>Date</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 21:02:00</td>
+      <td>2180-07-23 21:02:00</td>
+      <td>225755</td>
+      <td>2180-07-23 00:00:00</td>
+      <td>Date</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>ICU.icustays</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>stay_id</th>
+      <th>first_careunit</th>
+      <th>last_careunit</th>
+      <th>intime</th>
+      <th>outtime</th>
+      <th>los</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>Medical Intensive Care Unit (MICU)</td>
+      <td>Medical Intensive Care Unit (MICU)</td>
+      <td>2180-07-23 14:00:00</td>
+      <td>2180-07-23 23:50:47</td>
+      <td>0.410266</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1>ICU.Ingredientevents</h>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>subject_id</th>
+      <th>hadm_id</th>
+      <th>stay_id</th>
+      <th>starttime</th>
+      <th>endtime</th>
+      <th>storetime</th>
+      <th>itemid</th>
+      <th>amount</th>
+      <th>amountuom</th>
+      <th>rate</th>
+      <th>rateuom</th>
+      <th>orderid</th>
+      <th>linkorderid</th>
+      <th>statusdescription</th>
+      <th>originalamount</th>
+      <th>originalrate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 17:00:00</td>
+      <td>2180-07-23 17:01:00</td>
+      <td>2180-07-23 18:56:00</td>
+      <td>220490</td>
+      <td>200.000000</td>
+      <td>ml</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>7140773</td>
+      <td>7140773</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>200.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 17:00:00</td>
+      <td>2180-07-23 17:01:00</td>
+      <td>2180-07-23 18:56:00</td>
+      <td>227075</td>
+      <td>200.000000</td>
+      <td>ml</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>7140773</td>
+      <td>7140773</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>200.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 17:00:00</td>
+      <td>2180-07-23 17:30:00</td>
+      <td>2180-07-23 17:02:00</td>
+      <td>220490</td>
+      <td>49.999999</td>
+      <td>ml</td>
+      <td>100.0</td>
+      <td>mL/hour</td>
+      <td>7578214</td>
+      <td>7578214</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 17:00:00</td>
+      <td>2180-07-23 17:30:00</td>
+      <td>2180-07-23 17:02:00</td>
+      <td>226509</td>
+      <td>49.999999</td>
+      <td>ml</td>
+      <td>100.0</td>
+      <td>mL/hour</td>
+      <td>7578214</td>
+      <td>7578214</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 17:33:00</td>
+      <td>2180-07-23 18:03:00</td>
+      <td>2180-07-23 18:16:00</td>
+      <td>220490</td>
+      <td>49.999999</td>
+      <td>ml</td>
+      <td>100.0</td>
+      <td>mL/hour</td>
+      <td>427849</td>
+      <td>427849</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 17:33:00</td>
+      <td>2180-07-23 18:03:00</td>
+      <td>2180-07-23 18:16:00</td>
+      <td>226509</td>
+      <td>49.999999</td>
+      <td>ml</td>
+      <td>100.0</td>
+      <td>mL/hour</td>
+      <td>427849</td>
+      <td>427849</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 18:56:00</td>
+      <td>2180-07-23 18:57:00</td>
+      <td>2180-07-23 18:56:00</td>
+      <td>220490</td>
+      <td>100.000000</td>
+      <td>ml</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>1579487</td>
+      <td>1579487</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 18:56:00</td>
+      <td>2180-07-23 18:57:00</td>
+      <td>2180-07-23 18:56:00</td>
+      <td>227075</td>
+      <td>100.000000</td>
+      <td>ml</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>1579487</td>
+      <td>1579487</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 21:10:00</td>
+      <td>2180-07-23 21:11:00</td>
+      <td>2180-07-23 21:10:00</td>
+      <td>220490</td>
+      <td>100.000000</td>
+      <td>ml</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>415918</td>
+      <td>415918</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>10000032</td>
+      <td>29079034</td>
+      <td>39553978</td>
+      <td>2180-07-23 21:10:00</td>
+      <td>2180-07-23 21:11:00</td>
+      <td>2180-07-23 21:10:00</td>
+      <td>227075</td>
+      <td>100.000000</td>
+      <td>ml</td>
+      <td>NaN</td>
+      <td>None</td>
+      <td>415918</td>
+      <td>415918</td>
+      <td>FinishedRunning</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+  </tbody>
+</table>
+

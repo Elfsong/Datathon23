@@ -72,5 +72,4 @@ class SqlMiddleware(object):
         except Exception as e:
             print(e)
             self.cursor.execute("ROLLBACK")
-            return None 
-        
+            return None
